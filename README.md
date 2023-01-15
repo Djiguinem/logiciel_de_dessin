@@ -35,7 +35,7 @@ Les raccourcis claviers pour dessiner  les figures sont :
 	g -> pour creer une couleur (voir la console )
 
 	```
-Les raccourcis de sauvegarde et de chargement:
+-Les raccourcis de sauvegarde et de chargement:
 	```bash 
 	i ->  pour sauvegarder dessin dans un fichier.ppm 
 	e ->  pour sauvegarder le dessin  dans un fichier .txt
