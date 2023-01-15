@@ -34,9 +34,8 @@ Les raccourcis claviers pour dessiner  les figures sont :
 	f -> pour dessiner un polygone  nécéssites cinq points coté graphique
 	g -> pour creer une couleur (voir la console )
 
-	```
--Les raccourcis de sauvegarde et de chargement:
-	```bash 
+	-Les raccourcis de sauvegarde et de chargement:
+
 	i ->  pour sauvegarder dessin dans un fichier.ppm 
 	e ->  pour sauvegarder le dessin  dans un fichier .txt
 	m ->  pour charger la liste des figures d'un fichier.txt
