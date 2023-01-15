@@ -1,0 +1,547 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'main.o', needed by 'all'.  Stop.
+
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sat Apr 16 23:31:51 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/alseiny/Documents/Campus/Licence 2/S4/Structure Algebrique/groupe-5
+# makefile
+SHELL = /bin/sh
+# environment
+SNAP_DATA = /var/snap/code/94
+# environment
+VSCODE_NLS_CONFIG = {"locale":"fr","availableLanguages":{"*":"fr"},"_languagePackId":"f62d0d328ea2a469bad3c39b06263023.fr","_translationsConfigFile":"/home/alseiny/.config/Code/clp/f62d0d328ea2a469bad3c39b06263023.fr/tcf.json","_cacheRoot":"/home/alseiny/.config/Code/clp/f62d0d328ea2a469bad3c39b06263023.fr","_resolvedLanguagePackCoreLocation":"/home/alseiny/.config/Code/clp/f62d0d328ea2a469bad3c39b06263023.fr/dfd34e8260c270da74b5c2d86d61aee4b6d56977","_corruptedFile":"/home/alseiny/.config/Code/clp/f62d0d328ea2a469bad3c39b06263023.fr/corrupted.info","_languagePackSupport":true}
+# environment
+JOURNAL_STREAM = 8:636198
+# makefile (from 'Makefile', line 1)
+CFLAGS = -ggdb3 -O0 --std=c99 -Wall -lm `sdl2-config --libs --cflags` -lSDL2_image 
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+SNAP_ARCH = amd64
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+USERNAME = alseiny
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+_ = /snap/code/94/usr/share/code/code
+# environment
+MANAGERPID = 105080
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/alseiny
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/94/usr/share/glib-2.0/schemas
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/alseiny/.cabal/bin:/home/alseiny/.ghcup/bin:/home/alseiny/anaconda3/bin:/home/alseiny/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/alseiny-Latitude-5480:@/tmp/.ICE-unix/105294,unix/alseiny-Latitude-5480:/tmp/.ICE-unix/105294
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/alseiny/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+SNAP = /snap/code/94
+# environment
+SNAP_VERSION = dfd34e82
+# environment
+CONDA_PREFIX = /home/alseiny/anaconda3
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+DISABLE_WAYLAND = 1
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = 9bc6014bf2cf4b238b7e3cee89190ed7
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/94/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 107328
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+CONDA_EXE = /home/alseiny/anaconda3/bin/conda
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+PWD = /home/alseiny/Documents/Campus/Licence 2/S4/Structure Algebrique/groupe-5
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 105256
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/alseiny
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/alseiny/.config/Code/CachedData/dfd34e8260c270da74b5c2d86d61aee4b6d56977
+# environment
+LOGNAME = alseiny
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+SNAP_CONTEXT = LIeK632pfxk6PrIEkNza5i2x-H2Aotkhm00OHurN5n954IwfETzd
+# environment
+CONDA_PROMPT_MODIFIER = (base) 
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SNAP_USER_COMMON = /home/alseiny/snap/code/common
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# environment
+SNAP_REAL_HOME = /home/alseiny
+# environment
+CONDA_DEFAULT_ENV = base
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SNAP_USER_DATA = /home/alseiny/snap/code/94
+# environment
+SHLVL = 0
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-bc810ce5-fa47-4853-822a-64aea63234e9.sock
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = alseiny
+# environment
+SNAP_REVISION = 94
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+CONDA_SHLVL = 1
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-ad9ae072-1.66.2-main.sock
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# environment
+QT_ACCESSIBILITY = 1
+# default
+MAKEFILES := 
+# environment
+SNAP_COOKIE = LIeK632pfxk6PrIEkNza5i2x-H2Aotkhm00OHurN5n954IwfETzd
+# automatic
+<F = $(notdir $<)
+# environment
+SNAP_NAME = code
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 3)
+FIGURES = src/figures/point.o src/figures/segment.o src/figures/triangle.o src/figures/rectangle.o src/figures/cercle.o src/figures/polygone.o
+# environment
+CONDA_PYTHON_EXE = /home/alseiny/anaconda3/bin/python
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SNAP_REEXEC = 
+# environment
+_CE_M = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+VSCODE_PID = 107375
+# environment
+_CE_CONDA = 
+# variable set hash-table stats:
+# Load=130/1024=13%, Rehash=0, Collisions=19/157=12%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2055, inode 4244018): 14 files, no impossibilities.
+
+# 14 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+src/figures/triangle.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+tests/test_fichiers_images.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: main.o src/liste_figure.o src/couleur.o src/gestion_evenement.o src/dessin.o src/fichiers_images.o src/figures/point.o src/figures/segment.o src/figures/triangle.o src/figures/rectangle.o src/figures/cercle.o src/figures/polygone.o
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 6):
+	gcc main.o src/liste_figure.o src/couleur.o src/gestion_evenement.o src/dessin.o src/fichiers_images.o $(FIGURES) -o projet $(CFLAGS)
+
+# Not a target:
+src/figures/polygone.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test_fichiers_images: tests/test_fichiers_images.o src/liste_figure.o src/dessin.o src/fichiers_images.o src/figures/point.o src/figures/segment.o src/figures/triangle.o src/figures/rectangle.o src/figures/cercle.o src/figures/polygone.o src/couleur.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 49):
+	gcc tests/test_fichiers_images.o src/liste_figure.o src/dessin.o src/fichiers_images.o $(FIGURES) src/couleur.o -o tests/test_fichiers_images $(CFLAGS)
+	./tests/test_fichiers_images
+	rm tests/test_fichiers_images
+	rm tests/fichier_liste_save.txt
+	rm testimage.ppm
+
+# Not a target:
+src/figures/segment.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+tests/test_segment.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/couleur.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 23:31:39.744352614
+#  File has been updated.
+#  Successfully updated.
+ 
+
+test: test_couleur test_point test_liste_figure test_segment test_triangle test_rectangle test_polygone test_cercle test_fichiers_images
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/fichiers_images.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+tests/test_couleur.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test_segment: tests/test_segment.o src/figures/segment.o src/dessin.o src/figures/point.o src/couleur.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 24):
+	gcc tests/test_segment.o src/figures/segment.o src/dessin.o src/figures/point.o src/couleur.o -o tests/test_segment $(CFLAGS)
+	./tests/test_segment
+	rm tests/test_segment
+
+# Not a target:
+tests/test_triangle.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+tests/test_point.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/dessin.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test_couleur: tests/test_couleur.o src/couleur.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 9):
+	gcc tests/test_couleur.o src/couleur.o -o tests/test_couleur
+	./tests/test_couleur
+	rm tests/test_couleur
+
+test_triangle: tests/test_triangle.o src/figures/triangle.o src/dessin.o src/figures/point.o src/couleur.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 29):
+	gcc tests/test_triangle.o src/figures/triangle.o src/dessin.o src/figures/point.o src/couleur.o -o tests/test_triangle $(CFLAGS)
+	./tests/test_triangle
+	rm tests/test_triangle
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test_point: tests/test_point.o src/figures/point.o src/couleur.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 14):
+	gcc tests/test_point.o src/figures/point.o src/couleur.o -o tests/test_point $(CFLAGS)
+	./tests/test_point
+	rm tests/test_point
+
+# Not a target:
+src/gestion_evenement.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+tests/test_cercle.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+tests/test_liste_figure.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+tests/test_rectangle.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/figures/point.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test_cercle: tests/test_cercle.o src/figures/cercle.o src/dessin.o src/figures/point.o src/couleur.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 44):
+	gcc tests/test_cercle.o src/figures/cercle.o src/dessin.o src/figures/point.o src/couleur.o -o tests/test_cercle $(CFLAGS)
+	./tests/test_cercle
+	rm tests/test_cercle
+
+# Not a target:
+main.o:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+tests/test_polygone.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test_liste_figure: tests/test_liste_figure.o src/liste_figure.o src/figures/point.o src/couleur.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 19):
+	gcc tests/test_liste_figure.o src/liste_figure.o src/figures/point.o src/couleur.o -o tests/test_liste_figure $(CFLAGS)
+	./tests/test_liste_figure
+	rm tests/test_liste_figure
+
+# Not a target:
+src/figures/cercle.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test_rectangle: tests/test_rectangle.o src/figures/rectangle.o src/dessin.o src/figures/point.o src/couleur.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 34):
+	gcc tests/test_rectangle.o src/figures/rectangle.o src/dessin.o src/figures/point.o src/couleur.o -o tests/test_rectangle $(CFLAGS)
+	./tests/test_rectangle
+	rm tests/test_rectangle
+
+test_polygone: tests/test_polygone.o src/figures/polygone.o src/dessin.o src/figures/point.o src/couleur.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 39):
+	gcc tests/test_polygone.o src/figures/polygone.o src/dessin.o src/figures/point.o src/couleur.o -o tests/test_polygone $(CFLAGS)
+	./tests/test_polygone
+	rm tests/test_polygone
+
+# Not a target:
+src/figures/rectangle.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/liste_figure.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=35/1024=3%, Rehash=0, Collisions=4/112=4%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 50 / storage = 730 B / avg = 14 B
+# current buf: size = 8162 B / used = 730 B / count = 50 / avg = 14 B
+ 
+
+# strcache performance: lookups = 111 / hit rate = 54%
+# hash-table stats:
+# Load=50/8192=1%, Rehash=0, Collisions=1/111=1%
+# Finished Make data base on Sat Apr 16 23:31:51 2022
+
+ 

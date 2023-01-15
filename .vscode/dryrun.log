@@ -1,0 +1,17 @@
+make all --dry-run --keep-going --print-directory
+make: Entering directory '/home/alseiny/Documents/Campus/Licence 2/S4/Structure Algebrique/groupe-5'
+cc -ggdb3 -O0 --std=c99 -Wall -lm `sdl2-config --libs --cflags` -lSDL2_image    -c -o main.o main.c
+cc -ggdb3 -O0 --std=c99 -Wall -lm `sdl2-config --libs --cflags` -lSDL2_image    -c -o src/liste_figure.o src/liste_figure.c
+cc -ggdb3 -O0 --std=c99 -Wall -lm `sdl2-config --libs --cflags` -lSDL2_image    -c -o src/couleur.o src/couleur.c
+cc -ggdb3 -O0 --std=c99 -Wall -lm `sdl2-config --libs --cflags` -lSDL2_image    -c -o src/gestion_evenement.o src/gestion_evenement.c
+cc -ggdb3 -O0 --std=c99 -Wall -lm `sdl2-config --libs --cflags` -lSDL2_image    -c -o src/dessin.o src/dessin.c
+cc -ggdb3 -O0 --std=c99 -Wall -lm `sdl2-config --libs --cflags` -lSDL2_image    -c -o src/fichiers_images.o src/fichiers_images.c
+cc -ggdb3 -O0 --std=c99 -Wall -lm `sdl2-config --libs --cflags` -lSDL2_image    -c -o src/figures/point.o src/figures/point.c
+cc -ggdb3 -O0 --std=c99 -Wall -lm `sdl2-config --libs --cflags` -lSDL2_image    -c -o src/figures/segment.o src/figures/segment.c
+cc -ggdb3 -O0 --std=c99 -Wall -lm `sdl2-config --libs --cflags` -lSDL2_image    -c -o src/figures/triangle.o src/figures/triangle.c
+cc -ggdb3 -O0 --std=c99 -Wall -lm `sdl2-config --libs --cflags` -lSDL2_image    -c -o src/figures/rectangle.o src/figures/rectangle.c
+cc -ggdb3 -O0 --std=c99 -Wall -lm `sdl2-config --libs --cflags` -lSDL2_image    -c -o src/figures/cercle.o src/figures/cercle.c
+cc -ggdb3 -O0 --std=c99 -Wall -lm `sdl2-config --libs --cflags` -lSDL2_image    -c -o src/figures/polygone.o src/figures/polygone.c
+gcc main.o src/liste_figure.o src/couleur.o src/gestion_evenement.o src/dessin.o src/fichiers_images.o src/figures/point.o src/figures/segment.o src/figures/triangle.o src/figures/rectangle.o src/figures/cercle.o src/figures/polygone.o -o projet -ggdb3 -O0 --std=c99 -Wall -lm `sdl2-config --libs --cflags` -lSDL2_image 
+make: Leaving directory '/home/alseiny/Documents/Campus/Licence 2/S4/Structure Algebrique/groupe-5'
+ 
